@@ -3,7 +3,7 @@ import openai
 
 openai.api_key = " " #chat gpt api code goes in parenthesis
 
-messages = [{"role":  "system", "content": "You are a Educator Assistant"}]
+messages = [{"role":  "system", "content": "You are a chatbot"}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
