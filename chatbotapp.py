@@ -1,7 +1,7 @@
 import gradio
 import openai
 
-openai.api_key = " " #chat gpt api code goes in parenthesis
+openai.api_key = " " # openAI api key goes inside parenthesis
 
 messages = [{"role":  "system", "content": "You are a chatbot"}]
 
