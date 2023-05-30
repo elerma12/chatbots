@@ -1,7 +1,7 @@
 import gradio
 import openai
 
-openai.api_key = "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"
+openai.api_key = " " #chat gpt api code goes in parenthesis
 
 messages = [{"role":  "system", "content": "You are a Educator Assistant"}]
 
@@ -17,7 +17,7 @@ def CustomChatGPT(user_input):
 
 
 demo = gradio.Interface(fn= CustomChatGPT,inputs = "text",outputs= "text", title = "Chatbot App")
-
+# use gradio to create basic GUI
 demo.launch(share=True)
 
 
